@@ -30,4 +30,4 @@ jobs:
       with: 
         app-name: ${{ env.AZURE_WEBAPP_NAME }} # Replace with your app name
         publish-profile: ${{ secrets.cred}} # Define secret variable in repository settings as per action documentation
-        package: '/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/bin/Release/net5.0'
+        package: '/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/bin/Release/net5.0'
